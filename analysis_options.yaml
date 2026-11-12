@@ -1,0 +1,35 @@
+# CampusPulse linting — strict but focused on correctness & architecture.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    invalid_annotation_target: ignore
+    missing_required_param: error
+    missing_return: error
+
+linter:
+  rules:
+    always_declare_return_types: true
+    avoid_print: true
+    prefer_single_quotes: true
+    unawaited_futures: true
+    use_super_parameters: true
+    prefer_final_locals: false
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    sort_child_properties_last: false
+    use_build_context_synchronously: true

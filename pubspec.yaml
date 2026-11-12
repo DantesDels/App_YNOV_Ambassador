@@ -1,0 +1,62 @@
+name: campus_pulse
+description: "CampusPulse — événements BDE/BDS, billetterie et réseau étudiant."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.5.0
+  screen_brightness: ^2.1.11
+
+  # State management & DI
+  flutter_riverpod: ^3.5.0
+  riverpod_annotation: ^4.0.8
+
+  # Navigation & deep links
+  go_router: ^18.1.4
+  share_plus: ^13.3.1
+  url_launcher: ^6.3.3
+
+  # Models
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+  collection: ^1.19.1
+
+  # Network & realtime
+  dio: ^5.11.1
+  web_socket_channel: ^3.0.3
+
+  # Payments
+  flutter_stripe: ^14.2.0
+
+  # Security & offline
+  flutter_secure_storage: ^11.2.0
+  local_auth: ^3.0.2
+  path_provider: ^2.1.6
+
+  # Formatting
+  intl: ^0.20.3
+  crypto: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.17.1
+  freezed: ^4.0.3
+  json_serializable: ^6.15.2
+  riverpod_generator: ^4.0.10
+
+flutter:
+  uses-material-design: true
