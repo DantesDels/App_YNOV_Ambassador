@@ -1,6 +1,6 @@
-# campus_pulse
+# Prototype de l'Application
 
-CampusPulse - evenements BDE/BDS, billetterie et reseau etudiant
+"CampusPulse" - evenements BDE/BDS, billetterie et reseau etudiant
 
 ## Getting Started
 
